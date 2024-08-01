@@ -27,4 +27,8 @@ urlpatterns = [
     path('contact/', views.contact),
     path('portfolio/', views.portfolio),
     path('do/', views.do),
+
+    # contact form
+    # path('contact_form/', views.contact_view, name='contact'),
+    # path('success/', views.success_page, name='success_page'),
 ]
